@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
+    "sonar": "node sonar.js"
+  },
+  "publishConfig": {
+    "registry": "http://52.201.167.45:8081/repository/np"
   },
   "engines": {
      "node": "6.9.1"
